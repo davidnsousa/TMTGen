@@ -66,7 +66,9 @@ The output data comes in long format. Each line is produced at each mouse click 
 
 ## Citing
 
-If you use TMTGen please cite the program with
+If you use TMTGen please cite the program with:
+
+David Sousa. (2019, September 12). davidnsousa/TMTGen: First release of TMTGen (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.3406466
 
 ## Contact
 
