@@ -15,17 +15,18 @@ To speed-test the program just run `TMT_trail_gen.py` followed by `TMT.py`.
 ### Generating trails
 
 An example `config` file is provided in the cfg directory to generate the trail. Open the config file with a common text editor. This particular trail config file looks like follows:
->800
->600
->40
->2
->1 2 3
->1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
->Training Phase\n\n Tap \<spacebar> to continue
->Testing Phase\n\n Tap \<spacebar> to continue
->End\n\n \n\n Tap \<esc> to exit
->default
->
+
+	800
+	600
+	40
+	2
+	1 2 3
+	1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+	Training Phase\n\n Tap \<spacebar> to continue
+	Testing Phase\n\n Tap \<spacebar> to continue
+	End\n\n \n\n Tap \<esc> to exit
+	default
+
 
 where the first two lines specify the size (in pixels) of the trail container in your screen; the 3rd, the size of the trail nodes; the 4th, the number of experiment phases; the 5th and 6th, the tags contained in the trail nodes for each experiment phase; the 7th and 8th, the opening messages for each experiment phase; the 9th, the closing message; the 10th, the name of the trail setup file to generate. Be sure to leave an empty line at the end of `config`. Also be sure not to leave any blank characters at the end of each line of the config file.
 
@@ -33,19 +34,19 @@ Run the `TMT_trail_gen.py` script in the cfg directory to generate the trail. Th
 
 For another example, the config file of an experiment with two testing phases of numbers and letters would look like follows:
 
->800
->600
->40
->3
->1 2 3
->1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
->A B C D E F G H I J K L M N O P Q R S T U V X Z
->Training Phase\n\n Tap \<spacebar> to continue
->Testing Phase 1\n\n Tap \<spacebar> to continue
->Testing Phase 2\n\n Tap \<spacebar> to continue
->End\n\n \n\n Tap \<esc> to exit
->default
->
+	800
+	600
+	40
+	3
+	1 2 3
+	1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+	A B C D E F G H I J K L M N O P Q R S T U V X Z
+	Training Phase\n\n Tap <spacebar> to continue
+	Testing Phase 1\n\n Tap <spacebar> to continue
+	Testing Phase 2\n\n Tap <spacebar> to continue
+	End\n\n \n\n Tap \<esc> to exit
+	default
+
 
 Run the `TMT_trail_gen.py` script to generate this trail. 
 
