@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
+
 # TMTGen
 
 TMTGen is an automatic [Trail Making Test](https://en.wikipedia.org/wiki/Trail_Making_Test) (TMT) generator for experimental research in neuropsychology.
