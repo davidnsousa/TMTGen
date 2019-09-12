@@ -22,9 +22,9 @@ An example `config` file is provided in the cfg directory to generate the trail.
 	2
 	1 2 3
 	1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
-	Training Phase\n\n Tap \<spacebar> to continue
-	Testing Phase\n\n Tap \<spacebar> to continue
-	End\n\n \n\n Tap \<esc> to exit
+	Training Phase\n\n Tap <spacebar> to continue
+	Testing Phase\n\n Tap <spacebar> to continue
+	End\n\n \n\n Tap <esc> to exit
 	default
 
 
