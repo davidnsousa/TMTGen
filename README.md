@@ -72,4 +72,4 @@ David Sousa. (2019, September 12). davidnsousa/TMTGen: First release of TMTGen (
 
 ## Contact
 
-For further questions please contact davidnsousa@gmail.com.
+For further questions please contact me from https://davidnsousa.github.io/.
